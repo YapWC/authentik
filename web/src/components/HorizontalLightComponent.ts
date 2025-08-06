@@ -120,7 +120,7 @@ export abstract class HorizontalLightComponent<T>
      * @property
      */
     @property({ type: String, reflect: false })
-    protected fieldID = IDGenerator.elementID().toString();
+    public fieldID?: string = IDGenerator.elementID().toString();
 
     //#endregion
 

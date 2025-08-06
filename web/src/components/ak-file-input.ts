@@ -25,7 +25,7 @@ export class AkFileInput extends HorizontalLightComponent<string> {
             @input=${this.#inputListener}
             value=${ifDefined(this.value)}
             class="pf-c-form-control"
-            ?required=${ifDefined(this.required)}
+            ?required=${this.required}
         />`;
     }
 }

@@ -89,7 +89,7 @@ export class SearchSelectBase<T> extends AkControlElement<string> implements ISe
      * @property
      */
     @property({ type: String, reflect: false })
-    protected fieldID?: string;
+    public fieldID?: string;
 
     // Used to inform the form of the input label.
     @property()
